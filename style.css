@@ -11,6 +11,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-size: 10px;
+	background-color: #f7f7f7;
 	font-family: sans-serif;
 }
 
@@ -20,11 +21,14 @@ body {
 	background-color: #55acee;
 	display: flex;
 	list-style: none;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .header .nav__list .nav__list--item {
-	padding: 1.5rem 1rem;
-	font-size: 1.4rem;
+	text-align: center;
+	width: 50%;
+	padding: 2rem 1rem;
+	font-size: 2rem;
 	font-weight: 600;
 	color: #292f33;
 	transition: background-color 0.3s;
@@ -32,6 +36,10 @@ body {
 }
 
 .header .nav__list .nav__list--item:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header .nav__list .nav__list--item.active {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -75,6 +83,7 @@ body {
 	color: #292f33;
 	transition: transform 0.3s;
 	cursor: pointer;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
@@ -90,6 +99,7 @@ body {
 	width: 80%;
 	margin: 2rem auto;
 	border-radius: 5px;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .gpa__table .table__row:first-child {
