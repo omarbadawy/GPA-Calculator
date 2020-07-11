@@ -1,148 +1,149 @@
 * {
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0;
-	font-size: 10px;
-	background-color: #f7f7f7;
-	font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
 }
 
 .header .nav__list {
-	padding: 0;
-	margin: 0;
-	background-color: #55acee;
-	display: flex;
-	list-style: none;
-	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+    background-color: #55acee;
+    display: flex;
+    list-style: none;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .header .nav__list .nav__list--item {
-	text-align: center;
-	width: 50%;
-	padding: 2rem 1rem;
-	font-size: 2rem;
-	font-weight: 600;
-	color: #292f33;
-	transition: background-color 0.3s;
-	cursor: pointer;
+    text-align: center;
+    width: 50%;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #292f33;
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .header .nav__list .nav__list--item:hover {
-	background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .header .nav__list .nav__list--item.active {
-	background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .gpa__data {
-	width: 70%;
-	margin: 1rem auto;
-	padding: 0.7rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 70%;
+    margin: 1rem auto;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .gpa__data .input {
-	display: block;
-	font-size: 2rem;
-	padding: 1rem;
-	outline: none;
-	border: 3px solid #55acee;
-	border-radius: 30px;
-	text-align: center;
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: 3px solid #55acee;
+    border-radius: 30px;
+    text-align: center;
 }
 
 .gpa__data .label {
-	display: block;
-	font-size: 1.7rem;
-	font-weight: 700;
-	color: #292f33;
-	padding: 1rem;
-	cursor: pointer;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #292f33;
+    padding: 1rem;
+    cursor: pointer;
 }
 .button {
-	display: inline-block;
-	margin-top: 1rem;
-	font-size: 1.7rem;
-	font-weight: 700;
-	padding: 1.5rem 2.5rem;
-	border-radius: 30px;
-	border: none;
-	outline: none;
-	background-color: #55acee;
-	color: #292f33;
-	transition: transform 0.3s;
-	cursor: pointer;
-	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1.5rem 2.5rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #55acee;
+    color: #292f33;
+    transition: transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
-	transform: scale(1.1);
+    transform: scale(1.1);
 }
 .button:active {
-	transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .gpa__table {
-	background-color: #f0f2f5;
-	min-height: 200px;
-	width: 80%;
-	margin: 2rem auto;
-	border-radius: 5px;
-	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    background-color: #f0f2f5;
+    min-height: 200px;
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .gpa__table .table__row:first-child {
-	background-color: #55acee;
-	border: none;
-	border-radius: 5px;
+    background-color: #55acee;
+    border: none;
+    border-radius: 5px;
 }
 
 .gpa__table .table__row {
-	padding: 1rem;
-	margin: 1rem 0;
-	display: flex;
-	font-size: 2rem;
-	border-bottom: 1px solid #aaa;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    font-size: 2rem;
+    border-bottom: 1px solid #aaa;
 }
 
 .gpa__table .table__row:last-child {
-	border: none;
-	border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 .gpa__table .table__row .remove__item {
-	cursor: pointer;
-	margin-top: -2px;
+    cursor: pointer;
+    margin-top: -2px;
 }
 
 .gpa__table .table__row .table__header {
-	flex: 50%;
-	font-weight: 700;
-	color: #292f33;
-	text-align: center;
+    flex: 50%;
+    font-weight: 700;
+    color: #292f33;
+    text-align: center;
 }
 
 .gpa__table .table__row .table__data {
-	flex: 50%;
-	text-align: center;
+    flex: 50%;
+    text-align: center;
 }
 
 .button__calc {
-	text-align: center;
+    text-align: center;
 }
 
 .gpa__text {
-	font-size: 2rem;
-	font-weight: 700;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 150px;
 }

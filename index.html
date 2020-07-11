@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="GPA Calculator for faculty of science Benhaa university" />
-		<title>GPA Calculator</title>
-		<link rel="icon" href="./icon.png" />
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<header class="header">
-			<nav class="nav">
-				<ul class="nav__list">
-					<li id="gpa__term" class="nav__list--item active">GPA for this term</li>
-					<li id="gpa__total" class="nav__list--item">Total GPA</li>
-				</ul>
-			</nav>
-		</header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="GPA Calculator for faculty of science Benhaa university"
+        />
+        <title>GPA Calculator</title>
+        <link rel="icon" href="./icon.png" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li id="gpa__term" class="nav__list--item active">GPA for this term</li>
+                    <li id="gpa__total" class="nav__list--item">Total GPA</li>
+                </ul>
+            </nav>
+        </header>
 
-		<main class="main" id="main">
-			<div class="calc__gpa--term">
-				<div class="gpa__data">
-					<label class="label" for="degree">Enter a subject degree</label>
-					<input id="degree" type="text" name="degree" class="input" placeholder="Degree" />
-					<label class="label" for="hours">Enter a subject credit</label>
-					<input id="hours" type="text" name="hours" class="input" placeholder="Hours" />
-					<button class="button add__subject">Add subject</button>
-				</div>
-				<div class="gpa__table">
-					<div class="table__row">
-						<div class="table__header">Degree</div>
-						<div class="table__header">Hours</div>
-					</div>
-				</div>
-				<div class="button__calc">
-					<button class="button calc__gpa">Calculate GPA</button>
-					<p class="gpa__text">Your GPA is: <span class="gpa__text--value"></span></p>
-				</div>
-			</div>
-		</main>
-		<!---------------------Script---------------------->
-		<script src="./index.js"></script>
-	</body>
+        <main class="main" id="main">
+            <div class="calc__gpa--term">
+                <div class="gpa__data">
+                    <label class="label" for="degree">Enter a subject degree</label>
+                    <input
+                        id="degree"
+                        type="text"
+                        name="degree"
+                        class="input"
+                        placeholder="Degree"
+                    />
+                    <label class="label" for="hours">Enter a subject credit</label>
+                    <input id="hours" type="text" name="hours" class="input" placeholder="Hours" />
+                    <button class="button add__subject">Add subject</button>
+                </div>
+                <div class="gpa__table">
+                    <div class="table__row">
+                        <div class="table__header">Degree</div>
+                        <div class="table__header">Hours</div>
+                    </div>
+                </div>
+                <div class="button__calc">
+                    <button class="button calc__gpa">Calculate GPA</button>
+                    <p class="gpa__text">Your GPA is: <span class="gpa__text--value"></span></p>
+                </div>
+            </div>
+        </main>
+        <!---------------------Script---------------------->
+        <script src="./index.js"></script>
+    </body>
 </html>
