@@ -19,3 +19,4 @@
 [0504/055731.360:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0504/055731.360:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0712/012636.394:ERROR:crash_report_database_win.cc(429)] unexpected header
+[0712/015433.380:ERROR:crash_report_database_win.cc(429)] unexpected header
